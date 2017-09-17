@@ -1,5 +1,5 @@
 module.exports = function multiply(first, second) {
-let Bigarr = second.split('').map(s => {	
+let arrBig = second.split('').map(s => {	
 	return first.split('').map(f => {
 		return (+s)*(+f);
 	}).reverse(); 
