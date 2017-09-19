@@ -4,9 +4,7 @@ let a = second.split('').map(s => {
 		return (+s)*(+f);
 	}).reverse(); 
 });
-
 a.reverse();
-
 let b=[];
 for (let j=0; j<a.length; j++){
 	if (j===0) {
@@ -18,7 +16,6 @@ for (let j=0; j<a.length; j++){
 		}
 	}
 };
-
 let strng = '';
 for (let i=0; i<b.length; i++) {
 	if (b[i] < 10 ) {
