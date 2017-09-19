@@ -5,7 +5,7 @@ let a = second.split('').map(s => {
 	}).reverse(); 
 });
 a.reverse();
-let b=[];
+let b =[];
 for (let j=0; j<a.length; j++){
 	if (j===0) {
 		b = a[0];
