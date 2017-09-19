@@ -11,7 +11,7 @@ for (let j=0; j<arr.length; j++){
 	} else {
 		b.push(0);
 		for(let k=0; k<a[j].length;k++){
-			a[j+k] = a[j+k] + a[j][k];
+			b[j+k] = b[j+k] + a[j][k];
 		}
 	}
 };
