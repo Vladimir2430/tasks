@@ -4,6 +4,7 @@ let a = second.split('').map(s => {
 		return (+s)*(+f);
 	}).reverse(); 
 });
+a.revers();	
 let b = [];
 for (let j=0; j<arr.length; j++){
 	if (j===0) {
